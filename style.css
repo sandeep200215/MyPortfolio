@@ -1,0 +1,105 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.dropdown-menu .dropdown-item:hover
+{
+   color: rgb(42, 42, 114);
+   /* background-color: rgb(56, 56, 110); */
+   
+    
+}
+#about
+{
+    background-color:azure;
+    height: 80vh;
+    background-color: black;
+    width: 100%;
+    
+  
+}
+#image{
+     display: flex;
+
+   
+    
+    
+
+} 
+img
+{   
+   
+    border-radius: 50%;
+    height: 30vh;
+    margin-top:120px;
+    margin-left: 100px;
+    /* margin:80px; */
+
+    
+
+}
+.education
+{
+    background-color:antiquewhite;
+    height: 80vh;
+    color: rgba(0, 0, 0, 0.747);
+}
+li{
+    color: blue;
+    font-size: 18px;
+}
+
+#projects
+{
+    background-color:beige;
+    height: 80vh;
+}
+#header
+{
+    position: fixed;
+    top:0;
+    width: 100%;
+    
+}
+#footer
+{
+    background-color: wheat;
+    height: 8vh;
+
+}
+
+#skills
+{
+    height: 60vh;
+}
+.navbar-nav.nav-item li a:hover 
+{
+    color: rgb(8, 8, 18);
+
+}
+.para1
+{
+  
+    text-align: justify;
+    font-size: 40px;
+    margin-top: 120px;
+   color: rgb(95, 66, 13);
+
+}
+.para
+{ 
+    margin: 40px;
+    
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 160px;
+    color: aliceblue;
+    
+
+}
+
+
+
