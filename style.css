@@ -3,7 +3,10 @@
     padding: 0px;
     margin: 0px;
    
+    
+   
 }
+
 
 .dropdown-menu .dropdown-item:hover
 {
@@ -15,27 +18,41 @@
 #about
 {
     background-color:azure;
-    height: 80vh;
+    height: 70vh;
     background-color: black;
+    /* background-color: black; */
     width: 100%;
-    
+    /* background-size: cover;  */
+
   
+}
+#about
+{  
+
+    height:70vh;
+    /* background-size: cover; */
+    background-color:black;
+   /* transform-origin:10px; */
+   
 }
 #image{
      display: flex;
-
-   
-    
-    
-
 } 
+#image h1
+{
+    margin-left: 35px;;
+
+}
+
 img
 {   
    
     border-radius: 50%;
     height: 30vh;
+    width: 50%;
     margin-top:120px;
     margin-left: 100px;
+   /* align-items: center; */
     /* margin:80px; */
 
     
@@ -44,9 +61,12 @@ img
 .education
 {
     background-color:antiquewhite;
-    height: 80vh;
+    height: 60vh;
+    margin-top: 0;
     color: rgba(0, 0, 0, 0.747);
 }
+
+
 li{
     color: blue;
     font-size: 18px;
@@ -55,7 +75,7 @@ li{
 #projects
 {
     background-color:beige;
-    height: 80vh;
+    height: auto;
 }
 #header
 {
@@ -66,8 +86,9 @@ li{
 }
 #footer
 {
-    background-color: wheat;
+    background-color:whitesmoke;
     height: 8vh;
+    color: rgba(0, 0, 0, 0.545);
 
 }
 
@@ -96,10 +117,154 @@ li{
     text-align: justify;
     font-size: 25px;
     margin-top: 160px;
-    color: aliceblue;
+    color: rgb(35, 66, 93);
     
 
 }
+nav #name a:hover
+{
+    color: rgb(51, 51, 125);
+
+}
+.reach-out
+{
+    height: 20vh;
+    text-align: center;
+    /* color: rgba(0, 0, 0, 0.438); */
+    background-color: rgba(200, 183, 183, 0.563);
+
+   
+}
+.reach-out a {
+    margin: 8px;
+    padding: 8px;
+    margin-top: 15px;
+};
+
+
+.reach-out
+{
+    float: right;
+    width: 50%;;
+
+}
+.reach-out .fa-linkedin
+{ 
+    color: rgb(63, 63, 223);
+    font-size: 20px;;
+    width: 40px;
+    border-radius: 5px;;
+    
+}
+.reach-out .fa-github
+{ 
+    color: black;
+    font-size: 20px;;
+    /* width: 25px; */
+    border-radius: 5px;;
+    
+}
+.reach-out .fa-instagram
+{ 
+    background-image: linear-gradient(rgb(121, 6, 121),rgb(231, 24, 183),rgb(227, 32, 32),rgb(225, 48, 78),rgb(219, 100, 20),rgb(240, 240, 9));
+    color: white;
+    font-size: 20px;;
+    width: 40px;
+    border-radius: 5px;;
+    
+}
+.reach-out .fa-instagram:hover
+{
+    color:rgb(147, 143, 143);
+}
+.reach-out .fa-github:hover
+{
+    color:rgb(147, 143, 143);
+}
+.reach-out .fa-linkedin:hover
+{
+    color:rgb(147, 143, 143);
+}
+
+
+
+#projects .grid-container {
+    display: grid;
+    gap: 10px;
+    /* grid-template-columns: auto auto auto; */
+    /* background-color: #2196F3; */
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;  
+    border-radius: 5px;
+  }
+  
+#projects .grid-item {
+    background-color: rgba(42, 95, 83, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    box-shadow: 0 4px 8px 0 blue;
+    padding: 5px;
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+     border-radius: 10px;;
+    height:auto;
+ }
+
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    #image
+    {
+        display: block;
+       
+    }
+    #about
+    {
+        height: 100vh;
+       
+    }
+.para1
+{
+  
+    text-align: justify;
+    font-size: 40px;
+     margin-top: 15px;
+    /* padding: -50px; */
+    margin-left: 30px;
+   color: rgb(95, 66, 13);
+
+}
+.para
+{ 
+   
+    /* padding-left: -40px;
+    padding-right: -40px; */
+    text-align: justify;
+    font-size: 22px;
+    margin-top: 0px;
+    /* margin-left: -80px; */
+    /* margin-right: -80px; */
+    color: aliceblue;
+}
+#image img {
+    text-align: center;
+
+
+}
+
+
+
+
+
+    
+
+  }
 
 
 
